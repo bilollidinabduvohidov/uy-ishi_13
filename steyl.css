@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    appearance: none;
+    border: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    display: block;
+    width: 10%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifx;
+    font-size: 0.88rem;
+    background: #adacac;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.container{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 5rem auto 24rem;
+}
+
+aside{
+    margin-top: 50px;
+    height: 80vh;
+}
+
+aside .top{
+    background: #393D46;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+}
+
+aside .logo_img{
+    width: .50rem;
+    height: .50rem;
+}
+
+aside .close{
+    display: none;
+}
+
+aside .sidebar{
+    background: #F6F7FB;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;  
+}
+
+.home_img{
+    background: #FF6647;
+    padding: .2rem;
+    border-radius: 2px;
+    width: 15px;
+}
+
+.home_photo{
+    background: white;
+    padding: .2rem;
+    padding-left: 1px;
+    border-radius: 2px;
+    width: 15px;
+    transition: .3s;
+}
+
+.home_photo:hover{
+    background: #FF6647;
+}
+
+aside h3{
+    padding-top: 5px;
+    color: #7987A5;
+    font-size: 7px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+aside h3:hover{
+    color: #1C295D;
+}
+
+aside .sidebar a{
+    display: flex;
+    flex-direction: column;
+    margin: .90rem 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: .1rem;
+    width: 100%;
+}
+
+main .navbar{
+    transform: translate(-2rem);
+    width: 50rem;
+    margin-top: 50px;
+    padding: 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    background: #F6F7FB;
+}
+
+.nav_inputData{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    background: white;
+    margin-right: .35rem;
+    padding: 7px 15px;
+    border-radius: 30px;
+    box-shadow: 2px 15px 20px 2px #00000049;
+}
+
+.nav_text{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 540;
+}
+
+.nav_img{
+    cursor: pointer;
+    width: 30px;
+    background: #F86549;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 2px 15px 20px 2px #00000049;
+}
+
