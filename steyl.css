@@ -40,7 +40,9 @@ body{
 }
 
 aside{
+    /* display: none; */
     margin-top: 50px;
+    /* width:  ; */
     height: 80vh;
 }
 
@@ -117,13 +119,14 @@ aside .sidebar a:last-child{
 
 main .navbar{
     transform: translate(-2rem);
-    width: 50rem;
+    width: 912px;
     margin-top: 50px;
     padding: 15px 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10rem;
     background: #F6F7FB;
+    justify-content: space-between;
 }
 
 .nav_inputData{
@@ -152,5 +155,112 @@ main .navbar{
     border-radius: 50%;
     padding: 2px;
     box-shadow: 2px 15px 20px 2px #00000049;
+}
+
+.main1{
+    transform: translate(-2rem);
+    width: 912px;
+    height: 877px;
+    border: 1px solid #000;
+}
+
+.main1_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_text{
+    display: flex;
+    margin: 0px 10px;
+    color: #3E3C50;
+    margin-bottom: 50px;
+}
+
+.mainphoto{
+    width: 30px;
+    margin: 0 10px;
+}
+
+.main1_button_grups{
+    margin: 0 10px;
+}
+
+.main1-btn-left{
+    border: none;
+    background: transparent;
+    margin-right: 10px;
+}
+
+.main1-btn-right{
+    border: none;
+    background: transparent;
+    margin-right: 10px;
+}
+
+.mian1_imgae{
+    width: 10px;
+}
+
+.main1_box{
+    display: flex;
+}
+
+.main1_gallery{
+    border-radius: 20px;
+    width: 293px;
+    height: 261px;
+    background: white;
+    margin-left: 10px;
+}
+
+.gallery_photo{
+    margin: 0 auto;
+    width: 268px;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery_text{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #353646;
+    margin-bottom: 10px;
+}
+
+.gallery_suptext{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #353646;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.metka{
+    width: 10px;
+    margin-right: 5px;
+}
+
+.saxraynt{
+    width: 50px;
+    position: absolute;
+    top: 27%;
+    left: 26%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.grop_text{
+    margin-right: 15px;
+    color: #34A59F;
+    margin-top: 30px;
+    font-size: 16px;
 }
 
